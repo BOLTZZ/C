@@ -12,3 +12,4 @@ Hi, my name is Ojas and you've found my HTML & CSS repository. Here, I go over s
 5. [Javascript](https://github.com/BOLTZZ/Javascript)
 
 6. [R](https://github.com/BOLTZZ/R)
+# Table of Contents:
