@@ -1,5 +1,5 @@
 # C
-Hi, my name is Ojas and you've found my HTML & CSS repository. Here, I go over some syntax, functions, and share some of my projects. Check out my [How To Get Started Guide]() if your just starting to learn how to code with C. Also, check out some cool projects [here]()
+Hi, my name is Ojas and you've found my HTML & CSS repository. Here, I go over some syntax, functions, and share some of my projects. Check out my [How To Get Started Guide](https://github.com/BOLTZZ/C/tree/master/C%20Algorithms%20%26%20Code) if your just starting to learn how to code with C. Also, check out some cool projects [here]()
 # Check out my repos. on programming languages:
 1. [Java](https://github.com/BOLTZZ/Java)
 
