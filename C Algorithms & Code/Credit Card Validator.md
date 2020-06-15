@@ -173,5 +173,6 @@ int get_card(long card)
 }
 ```
 <strong>Demostration:</strong>
+* Note: The Walkthrough is just an explanation of the project, NOT the solution code. You can find the video [here](https://youtu.be/dF7wNjsRBjI)
 
 ![1](https://github.com/BOLTZZ/C/blob/master/Images%20and%20Gifs/credit%20card%20verifier.gif)
