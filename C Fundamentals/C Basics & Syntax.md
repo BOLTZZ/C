@@ -50,6 +50,62 @@ void cought(int n){
   }
 }
 ```
+<strong>4 steps of running code:</strong>
+  1. *Preprocessing* - When the make prompt or clang prompt runs and the ```#include file``` is replaced by the specificed contents of that file for the program.
+```c
+//Code after prerocessing:
+...
+string get_string(string prompt);
+int printf(string format, ...);
+...
+int main(void)
+{
+ string name = get_string("What's your name?\n");
+ printf("hello, %s\n", name);
+}
+```
+  2. *Compiling* - The code above is converted, by a compiler, into *assembly code*, which is more low level than C and closer to binary. Also, it's closer to the CPU of the computer
+```assembly
+...
+main: # @main
+ .cfi_startproc
+# BB#0:
+ pushq %rbp
+.Ltmp0:
+ .cfi_def_cfa_offset 16
+.Ltmp1:
+ .cfi_offset %rbp, -16
+ movq %rsp, %rbp
+.Ltmp2:
+ .cfi_def_cfa_register %rbp
+ subq $16, %rsp
+ xorl %eax, %eax
+ movl %eax, %edi
+ movabsq $.L.str, %rsi
+ movb $0, %al
+ callq get_string
+ movabsq $.L.str.1, %rdi
+ movq %rax, -8(%rbp)
+ movq -8(%rbp), %rsi
+ movb $0, %al
+ callq printf
+ ..
+```
+  3. *Assembling* - Clang performs assembling which converts assembly code into machine code (binary).
+```
+01111111010001010100110001000110
+00000010000000010000000100000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000001000000000011111000000000
+00000001000000000000000000000000
+00000000000000000000000000000000
+...
+```
+  4. *Linking* - Helps link different files in the program, like the included <stdio.h> and <cs50.h> with the main function. So, those 3 files have their machine code linked, automatically.
+
+<img src = "https://github.com/BOLTZZ/C/blob/master/Images%20and%20Gifs/machine%20code.PNG" width = 400 height = 250>
+
 # C Syntax:
 * If/Else statement:
 ```c
