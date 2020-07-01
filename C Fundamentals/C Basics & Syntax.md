@@ -105,7 +105,6 @@ main: # @main
   4. *Linking* - Helps link different files in the program, like the included <stdio.h> and <cs50.h> with the main function. So, those 3 files have their machine code linked, automatically.
 
 <img src = "https://github.com/BOLTZZ/C/blob/master/Images%20and%20Gifs/machine%20code.PNG" width = 400 height = 250>
-
 # C Syntax:
 * If/Else statement:
 ```c
