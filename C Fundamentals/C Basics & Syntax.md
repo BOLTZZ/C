@@ -50,7 +50,7 @@ void cought(int n){
   }
 }
 ```
-<strong>4 steps of running code:</strong>
+<strong>4 steps of compilation (compiling code):</strong>
   1. *Preprocessing* - When the make prompt or clang prompt runs and the ```#include file``` is replaced by the specificed contents of that file for the program.
 ```c
 //Code after prerocessing:
@@ -105,6 +105,9 @@ main: # @main
   4. *Linking* - Helps link different files in the program, like the included <stdio.h> and <cs50.h> with the main function. So, those 3 files have their machine code linked, automatically.
 
 <img src = "https://github.com/BOLTZZ/C/blob/master/Images%20and%20Gifs/machine%20code.PNG" width = 400 height = 250>
+
+Debugging:
+* Debugging can be accomplished via the keyword: ```help50 make file_name```. 
 
 # C Syntax:
 * If/Else statement:
