@@ -106,9 +106,13 @@ main: # @main
 
 <img src = "https://github.com/BOLTZZ/C/blob/master/Images%20and%20Gifs/machine%20code.PNG" width = 400 height = 250>
 
-Debugging:
-* Debugging can be accomplished via the keyword: ```help50 make file_name```. 
+<strong>Debugging:</strong>
+* Debugging is the process of fixing errors/bugs in your program.
 
+Debugging Tools:
+1. One tool is the help50 keyword: ```help50 make file_name```, using the cs50 file package. The help function comes when the program is being compiled. 
+2. Another tool is the printf() statement/function to print something to the console, this helps understand what's going on inside the program.
+3. Check your IDE for extra debugging tools.
 # C Syntax:
 * If/Else statement:
 ```c
@@ -146,3 +150,7 @@ for (int i = 0; i < 50, i ++)
   printf("Spaghet");
 }
 ```
+* While loop:
+```c
+```
+* 
